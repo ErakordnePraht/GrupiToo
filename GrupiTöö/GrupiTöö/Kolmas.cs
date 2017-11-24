@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace GrupiTöö
 {
-    class Program
+    class Kolmas
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
