@@ -10,6 +10,10 @@ namespace GrupiTöö
     {
         static void Main(string[] args)
         {
+            Kolmas KolmasÜl = new Kolmas();
+            KolmasÜl.ülesanded();
+
+            Console.ReadLine();
         }
     }
 }
