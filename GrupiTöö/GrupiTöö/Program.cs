@@ -10,6 +10,8 @@ namespace GrupiTöö
     {
         static void Main(string[] args)
         {
+            Esimene esimeneül = new Esimene();
+            esimeneül.Arvud();
         }
     }
 }
