@@ -10,11 +10,18 @@ namespace GrupiTöö
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
             //Kuradi mergeimine on täielik jama
             Kolmas kolmasül = new Kolmas();
             kolmasül.ülesanded();
 
             Console.ReadKey();
         }
+=======
+            Teine teineül = new Teine();
+            teineül.Luger();
+            Console.ReadKey();
+        }     
+>>>>>>> Teine
     }
 }
