@@ -3,17 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-<<<<<<< HEAD
-=======
 using System.IO;
->>>>>>> Teine
+
 
 namespace GrupiTöö
 {
     class Teine
     {
-<<<<<<< HEAD
-=======
+
         public void Luger()
         {
             string txt = File.ReadAllText("kttekst.txt");
@@ -31,8 +28,6 @@ namespace GrupiTöö
             Console.WriteLine("Failis on: " + sõnad.Length + " sõna.");
             Console.WriteLine("Failis on: " + p + " sõna, mis on väiksemad kui 5 tähte.");
 
-            Console.ReadLine();
         }
->>>>>>> Teine
     }
 }
