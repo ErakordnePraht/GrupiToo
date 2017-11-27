@@ -11,21 +11,20 @@ namespace GrupiTöö
     {
         static void Main(string[] args)
         {
-            StreamReader sr = File.OpenText("kttekst.txt");
-            string sisu = sr.ReadToEnd();
-            sisu = sisu.Replace("\r\n", "\r");
-            int tähed = sisu.Length;
-            int read = sisu.Split('\r').Length;
-            sisu = sisu.Replace('\r',' ');
-            int sõnad = sisu.Split(' ').Length;
+            string txt = File.ReadAllText("kttekst.txt");
+            string[] sõnad = txt.Split(' ');
 
-
-            if (read < 5)
+            int p = 0;
+            foreach (var sõna in sõnad)
             {
-                Console.WriteLine("OK");
+                if (sõna.Length < 5)
+                {
+                    p++;
+                }
             }
 
-            Console.WriteLine(sõnad);
+            Console.WriteLine("Failis on: " + sõnad.Length + " sõna.");
+            Console.WriteLine("Failis on: " + p + " sõna, mis on väiksemad kui 5 tähte.");
 
             Console.ReadLine();
         }
