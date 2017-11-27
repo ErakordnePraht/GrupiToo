@@ -19,6 +19,8 @@ namespace GrupiTöö
             kolmasül.ülesanded();
 
             Console.ReadKey();
+            Esimene esimeneül = new Esimene();
+            esimeneül.Arvud();
         }
              
     }
