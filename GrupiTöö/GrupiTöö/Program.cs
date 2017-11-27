@@ -10,6 +10,7 @@ namespace GrupiTöö
     {
         static void Main(string[] args)
         {
+            //Kuradi mergeimine on täielik jama
         }
     }
 }
