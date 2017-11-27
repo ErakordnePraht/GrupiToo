@@ -11,6 +11,10 @@ namespace GrupiTöö
         static void Main(string[] args)
         {
             //Kuradi mergeimine on täielik jama
+            Kolmas kolmasül = new Kolmas();
+            kolmasül.ülesanded();
+
+            Console.ReadKey();
         }
     }
 }
