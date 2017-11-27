@@ -8,14 +8,17 @@ namespace GrupiTöö
 {
     class Esimene
     {
-        Console.WriteLine("Esimene arv: ");
+        public void Arvud()
+        {
+
+            Console.WriteLine("Esimene arv: ");
             int arv1 = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("Teine arv : ");
+            Console.WriteLine("Teine arv : ");
             int arv2 = int.Parse(Console.ReadLine());
 
 
-        IEnumerable<int> numbers = Enumerable.Range(arv1, arv2);
+            IEnumerable<int> numbers = Enumerable.Range(arv1, arv2);
 
             foreach (int number in numbers)
             {
@@ -24,6 +27,7 @@ namespace GrupiTöö
                     Console.WriteLine(number);
                 }
             }
-            Console.Read();       
+            Console.ReadLine();
+        }
     }
 }
