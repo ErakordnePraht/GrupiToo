@@ -8,6 +8,7 @@ namespace GrupiTöö
 {
     class Kolmas
     {
+        //Mergeimine lihtsalt ei tööta vahest
         public double[] array1 = new double[] { 11, 15, 6, 13, 13, 25, 32, 11, 20, 5, 31, 16, 32, 29, 11, 13, 3, 29, 28, 24 };
         public double[] array2 = new double[] { 5, 19, 16, 4, 12, 7, 2, 28, 34, 29, 29, 36, 6, 8, 24, 18, 31, 7, 1, 7 };
 
