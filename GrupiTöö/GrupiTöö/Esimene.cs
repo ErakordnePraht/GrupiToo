@@ -27,7 +27,6 @@ namespace GrupiTöö
                     Console.WriteLine(number);
                 }
             }
-            Console.ReadLine();
         }
     }
 }

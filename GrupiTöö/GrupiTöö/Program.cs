@@ -10,6 +10,9 @@ namespace GrupiTöö
     {
         static void Main(string[] args)
         {
+            Esimene esimeneül = new Esimene();
+            esimeneül.Arvud();
+
             //Suht jama on jah, viskab mingid konfliktid sisse siia...
             Teine teineül = new Teine();
             teineül.Luger();
@@ -19,8 +22,7 @@ namespace GrupiTöö
             kolmasül.ülesanded();
 
             Console.ReadKey();
-            Esimene esimeneül = new Esimene();
-            esimeneül.Arvud();
+
         }
              
     }
