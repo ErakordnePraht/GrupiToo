@@ -25,7 +25,6 @@ namespace GrupiTöö
             {
                     Console.WriteLine("paarisarv on: " + i);
             }
-            Console.ReadLine();
         }
     }
 }
