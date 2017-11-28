@@ -25,6 +25,14 @@ namespace GrupiTöö
             {
                     Console.WriteLine("paarisarv on: " + i);
             }
+            if (arv2 % 2 != 0)
+            {
+                arv2++;
+            }
+            for (int i = arv2; i <= arv1; i += 2)
+            {
+                Console.WriteLine("Paarisarv on: " + i);
+            }
         }
     }
 }
