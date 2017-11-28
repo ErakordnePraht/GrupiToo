@@ -17,16 +17,15 @@ namespace GrupiTöö
             Console.WriteLine("Teine arv : ");
             int arv2 = int.Parse(Console.ReadLine());
 
-
-            IEnumerable<int> numbers = Enumerable.Range(arv1, arv2);
-
-            foreach (int number in numbers)
+            if (arv1 % 2 != 0)
             {
-                if (number % 2 == 0)
-                {
-                    Console.WriteLine(number);
-                }
+                arv1++;
             }
+            for (i = arv1; i <= arv2; i += 2)
+            {
+                    Console.WriteLine("paarisarv on: ", i);
+            }
+            Console.ReadLine();
         }
     }
 }
