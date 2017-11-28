@@ -11,10 +11,10 @@ namespace GrupiTöö
         public void Arvud()
         {
 
-            Console.WriteLine("Esimene arv: ");
+            Console.WriteLine("Sisestage esimene arv: ");
             int arv1 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Teine arv : ");
+            Console.WriteLine("Sisestage teine arv: ");
             int arv2 = int.Parse(Console.ReadLine());
 
             if (arv1 % 2 != 0)
@@ -23,7 +23,7 @@ namespace GrupiTöö
             }
             for (int i = arv1; i <= arv2; i += 2)
             {
-                    Console.WriteLine("paarisarv on: " + i);
+                    Console.WriteLine("Paarisarv on: " + i);
             }
             if (arv2 % 2 != 0)
             {

@@ -10,10 +10,12 @@ namespace GrupiTöö
     {
         static void Main(string[] args)
         {
+
             Esimene esimeneül = new Esimene();
             esimeneül.Arvud();
 
             //Suht jama on jah, viskab mingid konfliktid sisse siia...
+            //kttekst.txt fail panna debug folderisse
             Teine teineül = new Teine();
             teineül.Luger();
             
